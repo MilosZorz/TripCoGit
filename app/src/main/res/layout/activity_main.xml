@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.constraint.ConstraintLayout
+<LinearLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zorz.tripco.MainActivity">
+    tools:context="com.zorz.tripco.MainActivity"
+    android:orientation="vertical">
 
-
-    <Button 
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"/>
 
     <Button
+        android:id="@+id/activity_main_button1"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:text="I am button one"/>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/activity_main_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am button two"/>
+    <Button
+        android:id="@+id/activity_main_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am button three"/>
+
+</LinearLayout>
