@@ -12,7 +12,10 @@
 
     <Button 
         android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <Button
         android:layout_width="match_parent"
-    </Button>
+        android:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>
